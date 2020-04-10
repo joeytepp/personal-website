@@ -1,0 +1,22 @@
+* {
+  font-family: Arial;
+}
+
+html {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background: black;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: Arial-Black;
+  font-size: 42px;
+  padding: 0px;
+  margin: 5px;
+}

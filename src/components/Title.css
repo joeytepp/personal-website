@@ -1,0 +1,15 @@
+.Title-root {
+  width: min-content;
+  white-space: nowrap;
+}
+
+.Title-underline {
+  height: 5px;
+  width: 0%;
+  transition: width 0.5s;
+  background: white;
+}
+
+.Title-root:hover .Title-underline {
+  width: 100%;
+}
