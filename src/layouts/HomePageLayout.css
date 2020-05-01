@@ -1,8 +1,3 @@
-.HomePage-root {
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
 .HomePage-top {
   padding-top: 20px;
 }
@@ -15,9 +10,15 @@
   padding-top: 100px;
 }
 
-@media screen and (max-width: 350px) {
-  .HomePage-root {
-    padding-left: 20px;
-    padding-right: 20px;
+@media screen and (min-height: 540px) {
+  .HomePage-bottom {
+    position: absolute;
+    top: calc(100vh - 30px);
+  }
+}
+@media screen and (max-height: 540px) {
+  .HomePage-bottom {
+    position: relative;
+    padding: 10px 0px;
   }
 }

@@ -1,0 +1,12 @@
+content:
+  - Hi, I’m Joey!
+  - I’m a software engineer from Toronto, Ontario.
+  - I made this website to show some of my projects, experience, and open source contributions to friends, family, and potential employers.
+  - "If you want to know more about me, feel free to get in contact with me through the following platforms:"
+links:
+  - name: GitHub
+    href: https://github.com/joeytepp
+  - name: LinkedIn
+    href: https://linkedin.com/joeytepp
+  - name: Email
+    href: mailto:joeytepperman@gmail.com

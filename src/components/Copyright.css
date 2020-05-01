@@ -5,15 +5,3 @@
   position: absolute;
   width: 100vw;
 }
-
-@media screen and (min-height: 540px) {
-  .Copyright-root {
-    top: calc(100vh - 30px);
-  }
-}
-@media screen and (max-height: 540px) {
-  .Copyright-root {
-    position: relative;
-    padding: 10px 0px;
-  }
-}

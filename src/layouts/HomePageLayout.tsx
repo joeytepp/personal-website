@@ -3,14 +3,15 @@ import "./HomePageLayout.css";
 import React from "react";
 
 import Title from "../components/Title";
-import GitHubLogo from "../components/GitHubLogo";
-import LinkedInLogo from "../components/LinkedInLogo";
+import Layout from "../components/Layout";
 import MailIcon from "../components/MailIcon";
 import Copyright from "../components/Copyright";
+import GitHubLogo from "../components/GitHubLogo";
+import LinkedInLogo from "../components/LinkedInLogo";
 
 function HomePageLayout() {
   return (
-    <div className="HomePage-root">
+    <Layout>
       <div className="HomePage-top">
         <Title color="#a3990b" href="/">
           Joey Tepperman
@@ -35,9 +36,10 @@ function HomePageLayout() {
           Open Source
         </Title>
       </div>
-
-      <Copyright></Copyright>
-    </div>
+      <div className="HomePage-bottom">
+        <Copyright></Copyright>
+      </div>
+    </Layout>
   );
 }
 

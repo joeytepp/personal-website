@@ -1,0 +1,12 @@
+.Layout-root {
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+@media screen and (max-width: 350px) {
+  .Layout-root {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
