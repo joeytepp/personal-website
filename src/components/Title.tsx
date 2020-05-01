@@ -1,10 +1,13 @@
 import "./Title.css";
 
 import React, { useContext } from "react";
+import { Link } from "gatsby";
+
 import { MouseContext } from "../context/MouseContext";
 
 interface Props {
-  color: "red" | "green" | "yellow" | "blue";
+  color: string;
+  href: string;
   readonly children: string;
 }
 
@@ -14,8 +17,10 @@ function Title(props: Props) {
 
   return (
     <div className="Title-root">
-      <h1 style={{ color: "white", textShadow: shadow }}>{props.children}</h1>
-      <div className="Title-underline" style={{ boxShadow: shadow }}></div>
+      <Link to={props.href}>
+        <h1 style={{ color: "white", textShadow: shadow }}>{props.children}</h1>
+        <div className="Title-underline" style={{ boxShadow: shadow }}></div>
+      </Link>
     </div>
   );
 }

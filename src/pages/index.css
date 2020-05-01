@@ -20,3 +20,20 @@ h1 {
   padding: 0px;
   margin: 5px;
 }
+
+a {
+  text-decoration: none;
+  width: min-content;
+}
+
+@media screen and (max-width: 460px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  h1 {
+    font-size: 24px;
+  }
+}

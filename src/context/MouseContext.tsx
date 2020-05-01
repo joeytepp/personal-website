@@ -23,22 +23,23 @@ export function MouseContextProvider(props: Props) {
     });
   };
 
+  const { dx, dy } = calculateShadowOffset(mouse);
+  const shadowPosition = `${dx}px ${dy}px 0px`;
+
   return (
-    <MouseContext.Provider
-      value={{ shadowPosition: calculateShadowPosition(mouse) }}
-    >
+    <MouseContext.Provider value={{ shadowPosition }}>
       {props.children}
     </MouseContext.Provider>
   );
 }
 
-function calculateShadowPosition(mouse: Mouse) {
-  const x =
-    (10 * mouse.x - 5 * document.body.clientWidth) / document.body.clientWidth;
-
-  const y =
-    (10 * mouse.y - 5 * document.body.clientHeight) /
-    document.body.clientHeight;
-
-  return `${x}px ${y}px 0`;
+function calculateShadowOffset(mouse: Mouse) {
+  return {
+    dx:
+      (10 * mouse.x - 5 * document.body.clientWidth) /
+      document.body.clientWidth,
+    dy:
+      (10 * mouse.y - 5 * document.body.clientHeight) /
+      document.body.clientHeight,
+  };
 }

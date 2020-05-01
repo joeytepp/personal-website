@@ -1,0 +1,8 @@
+.svg-link {
+  fill: white;
+  padding-right: 10px;
+}
+
+.svg-link:hover {
+  fill: lightgrey;
+}

@@ -1,0 +1,23 @@
+.HomePage-root {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.HomePage-top {
+  padding-top: 20px;
+}
+
+.HomePage-social {
+  padding-top: 10px;
+}
+
+.HomePage-body {
+  padding-top: 100px;
+}
+
+@media screen and (max-width: 350px) {
+  .HomePage-root {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
