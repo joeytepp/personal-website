@@ -12,18 +12,16 @@ import Copyright from "../components/Copyright";
 function AboutPageLayout() {
   return (
     <Layout>
-      <div className="AboutPage-top">
-        <Title href="/about" color="#0b69a3">
-          About
-        </Title>
-      </div>
+      <Title href="/about" color="#0b69a3">
+        About
+      </Title>
       <div className="AboutPage-body">
-        {content.map((str: string, i: number) => (
+        {content.map((str, i) => (
           <p key={i}>{str}</p>
         ))}
       </div>
       <div className="AboutPage-links">
-        {links.map((link, i: number) => (
+        {links.map((link, i) => (
           <TextLink href={link.href} key={i}>
             {link.name}
           </TextLink>

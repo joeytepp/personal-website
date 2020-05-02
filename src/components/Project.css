@@ -1,0 +1,22 @@
+.Project-grid {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  text-align: left;
+}
+
+.Project-img {
+  height: 20px;
+  padding-right: 5px;
+}
+
+.Project-date {
+  color: lightgrey;
+}
+
+.Project-tags {
+  padding-top: 15px;
+}
+
+.Project-description {
+  padding: 20px 30px;
+}

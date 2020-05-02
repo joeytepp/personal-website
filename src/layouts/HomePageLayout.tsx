@@ -12,15 +12,13 @@ import LinkedInLogo from "../components/LinkedInLogo";
 function HomePageLayout() {
   return (
     <Layout>
-      <div className="HomePage-top">
-        <Title color="#a3990b" href="/">
-          Joey Tepperman
-        </Title>
-        <div className="HomePage-social">
-          <GitHubLogo></GitHubLogo>
-          <LinkedInLogo></LinkedInLogo>
-          <MailIcon></MailIcon>
-        </div>
+      <Title color="#a3990b" href="/">
+        Joey Tepperman
+      </Title>
+      <div className="HomePage-social">
+        <GitHubLogo></GitHubLogo>
+        <LinkedInLogo></LinkedInLogo>
+        <MailIcon></MailIcon>
       </div>
       <div className="HomePage-body">
         <Title color="#0b69a3" href="/about">

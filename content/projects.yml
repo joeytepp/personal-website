@@ -1,0 +1,93 @@
+description: |
+  Since I began programming, I’ve worked on a lot of interesting and challenging projects
+  These projects have been for both personal applications and as part of my involvement
+  in extracurriculars in university. Below are some of my projects that I am most proud of.
+projects:
+  - title: Spike SOS Admin Platform
+    date: April 2020
+    image: /img/spikesos.png
+    tags:
+      - name: Paid
+      - name: Website
+        href: http://admin.spikesos.com
+    slideshow:
+      - img/spike-1.png
+      - img/spike-2.png
+      - img/spike-3.png
+      - img/spike-4.png
+      - img/spike-5.png
+      - img/spike-6.png
+      - img/spike-7.png
+      - img/spike-8.png
+    description: |
+      I built this project for Spike On Site Solutions, a construction company in
+      Toronto, Canada. I worked with a product manager and a designer to create
+      a web app that allows them to better manage their internal operations. The
+      application used NextJS for server-side rendering of React components,
+      PostgreSQL for the data-layer, and Docker for containerized deployment.
+  - title: Task Tree
+    date: August 2019
+    image: /img/tasktree.svg
+    tags:
+      - name: Personal
+      - name: Code
+        href: https://github.com/joeytepp/task-tree
+    slideshow:
+      - img/task-1.png
+      - img/task-2.png
+      - img/task-3.png
+      - img/task-4.png
+      - img/task-5.png
+      - img/task-6.png
+    description: |
+      I made this project to familiarize myself with Ruby on Rails, and to explore
+      some cool Ruby gems. The application is a task manager that lets users
+      nest tasks inside each other to create detailed and organized todo lists. I built
+      this using a GraphQL API (through the graphql-ruby gem) and server-side
+      rendered react (through the react_on_rails gem).
+  - title: QHacks Website & Dashboard
+    date: February 2019
+    image: /img/qhacks.svg
+    tags:
+      - name: School
+      - name: Code
+        href: https://github.com/qhacks/qhacks-dashboard
+      - name: Website
+        href: https://2019.qhacks.io
+    slideshow:
+      - img/qhacks-1.png
+      - img/qhacks-2.png
+      - img/qhacks-3.png
+      - img/qhacks-4.png
+      - img/qhacks-5.png
+      - img/qhacks-6.png
+      - img/qhacks-7.png
+    description: |
+      In my time at Queen’s University, I got involved with the school’s annual
+      hackathon, QHacks. After attending in second year as a hacker, I decided to
+      join the executive team the next year where I worked on a team of 3 developers
+      building tools for the hackathon itself. These tools included the GatsbyJS-
+      powered website and the dashboard that was built using Node, React, and
+      GraphQL. I focused primarily on the backend of this application which included
+      migrating the data-layer from MongoDB to PostgreSQL, migrating the API from
+      REST to GraphQL, and providing a large test suite using Jest.
+  - title: SongVerdict
+    date: July 2019
+    image: /img/songverdict.png
+    tags:
+      - name: Personal
+      - name: Code
+        href: https://github.com/joeytepp/SongVerdict
+    slideshow:
+      - img/sv-1.png
+      - img/sv-2.png
+      - img/sv-3.png
+      - img/sv-4.png
+      - img/sv-5.png
+    description: |
+      This project is very near and dear to my heart as it was the first web app I
+      ever shipped. The app connects to Spotify’s API to play a random song every
+      30 seconds and allow users to like or dislike every song. A list is kept of the
+      most liked and disliked songs which is persisted using MongoDB. I originally
+      deployed this website using Amazon EC2, however my free trial ran out, but
+      the code is still available on my GitHub.

@@ -1,0 +1,21 @@
+.Tag-root {
+  padding: 2px 5px;
+  margin-right: 5px;
+  color: green;
+  border: solid 1px green;
+  border-radius: 5px;
+}
+
+.Tag-link {
+  color: blue;
+  border: solid 1px blue;
+}
+
+.Tag-link:hover {
+  filter: brightness(0.8);
+}
+
+.Tag-code {
+  color: white;
+  border: solid 1px white;
+}

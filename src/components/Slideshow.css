@@ -1,0 +1,9 @@
+.Slideshow-root {
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.Slideshow-dots li::before {
+  color: white !important;
+  content: "\2022";
+}

@@ -1,7 +1,9 @@
 .Copyright-root {
+  width: min-content;
   text-align: center;
+  margin: 0px auto;
+  white-space: nowrap;
   color: grey;
   font-size: 12px;
   position: absolute;
-  width: 100vw;
 }
