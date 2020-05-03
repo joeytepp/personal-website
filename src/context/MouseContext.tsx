@@ -15,13 +15,14 @@ interface Mouse {
 
 export function MouseContextProvider(props: Props) {
   const [mouse, setMouse] = useState<Mouse>({ x: 0, y: 0 });
-
-  document.onmousemove = (e) => {
-    setMouse({
-      x: e.x,
-      y: e.y,
-    });
-  };
+  if (typeof document !== "undefined") {
+    document.onmousemove = (e) => {
+      setMouse({
+        x: e.x,
+        y: e.y,
+      });
+    };
+  }
 
   const { dx, dy } = calculateShadowOffset(mouse);
   const shadowPosition = `${dx}px ${dy}px 0px`;
@@ -34,6 +35,13 @@ export function MouseContextProvider(props: Props) {
 }
 
 function calculateShadowOffset(mouse: Mouse) {
+  if (typeof document === "undefined") {
+    return {
+      dx: 0,
+      dy: 0,
+    };
+  }
+
   return {
     dx:
       (10 * mouse.x - 5 * document.body.clientWidth) /
