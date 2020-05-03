@@ -1,0 +1,19 @@
+@media screen and (min-height: 840px) {
+  .OpenSourcePage-bottom {
+    position: absolute;
+    top: calc(100vh - 30px);
+  }
+}
+@media screen and (max-height: 840px) {
+  .OpenSourcePage-bottom {
+    position: relative;
+    padding: 10px 0px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .OpenSourcePage-bottom {
+    position: relative;
+    padding: 10px 0px;
+  }
+}

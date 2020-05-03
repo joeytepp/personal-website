@@ -26,10 +26,21 @@ interface Job {
   date: string;
 }
 
+interface PullRequest {
+  repo: string;
+  org: string;
+  name: string;
+  number: number;
+  date: string;
+  image: string;
+  description: string;
+}
+
 declare module "*.yml" {
   export const content: Array<string>;
   export const links: Array<Link>;
   export const description: string;
   export const projects: Array<Project>;
   export const jobs: Array<Job>;
+  export const pulls: Array<PullRequest>;
 }

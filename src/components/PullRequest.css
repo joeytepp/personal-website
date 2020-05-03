@@ -1,0 +1,55 @@
+.PullRequest-root {
+  padding: 5px;
+  margin: 5px 0px;
+}
+
+.PullRequest-grid {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+}
+
+.PullRequest-img {
+  width: 40px;
+  height: 40px;
+  padding-right: 10px;
+}
+
+.PullRequest-link {
+  color: inherit;
+}
+
+.PullRequest-link:hover {
+  text-decoration: underline;
+}
+
+.PullRequest-name,
+.PullRequest-date {
+  color: lightgrey;
+}
+
+.PullRequest-description {
+  padding-top: 10px;
+}
+
+.PullRequest-date-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 540px) {
+  .PullRequest-grid {
+    grid-template-columns: min-content 1fr;
+  }
+
+  .PullRequest-date {
+    display: none;
+  }
+
+  .PullRequest-date-mobile {
+    display: block;
+  }
+
+  .PullRequest-img {
+    height: 60px;
+    width: 60px;
+  }
+}
