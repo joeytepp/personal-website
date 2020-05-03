@@ -1,0 +1,23 @@
+.Job-root {
+  padding: 5px;
+}
+
+.Job-grid {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+}
+
+.Job-img {
+  width: 40px;
+  height: 40px;
+  padding-right: 10px;
+}
+
+.Job-location,
+.Job-date {
+  color: lightgrey;
+}
+
+.Job-description {
+  padding-top: 10px;
+}

@@ -17,9 +17,19 @@ interface Project {
   date: string;
 }
 
+interface Job {
+  title: string;
+  company: string;
+  image: string;
+  location: string;
+  description: string;
+  date: string;
+}
+
 declare module "*.yml" {
   export const content: Array<string>;
   export const links: Array<Link>;
   export const description: string;
   export const projects: Array<Project>;
+  export const jobs: Array<Job>;
 }

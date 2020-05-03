@@ -1,9 +1,9 @@
 .Copyright-root {
-  width: min-content;
+  width: 100vw;
+  max-width: 1200px;
   text-align: center;
   margin: 0px auto;
   white-space: nowrap;
   color: grey;
   font-size: 12px;
-  position: absolute;
 }
