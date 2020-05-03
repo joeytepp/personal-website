@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Arial-Black";
   font-display: swap;
-  src: local("Arial-Black"), url("/fonts/arial=black.ttf");
+  src: local("Arial-Black"), url("/fonts/arial-black.ttf");
 }
 
 * {
