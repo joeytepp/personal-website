@@ -26,7 +26,7 @@ function PullRequest(props: PullRequest) {
             <div className="PullRequest-name">
               <a
                 className="PullRequest-link"
-                href={`${GITHUB_URL}/${props.org}/${props.repo}/pulls/${props.number}`}
+                href={`${GITHUB_URL}/${props.org}/${props.repo}/pull/${props.number}`}
               >
                 #{props.number} - {props.name}
               </a>
