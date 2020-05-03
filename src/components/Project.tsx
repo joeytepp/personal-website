@@ -23,6 +23,7 @@ function Project(props: Project) {
                 <Tag {...tag} key={i}></Tag>
               ))}
             </div>
+            <div className="Project-date-mobile">{props.date}</div>
           </div>
           <div className="Project-date">{props.date}</div>
         </div>

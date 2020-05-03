@@ -24,3 +24,27 @@
 .Project-description {
   padding: 20px 30px;
 }
+
+.Project-date-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 540px) {
+  .Project-grid {
+    grid-template-columns: min-content 1fr;
+  }
+
+  .Project-date {
+    display: none;
+  }
+
+  .Project-date-mobile {
+    display: block;
+    padding-top: 10px;
+  }
+
+  .Project-img {
+    height: 60px;
+    width: 60px;
+  }
+}
