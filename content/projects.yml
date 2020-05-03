@@ -11,14 +11,14 @@ projects:
       - name: Website
         href: http://admin.spikesos.com
     slideshow:
-      - img/spike-1.png
-      - img/spike-2.png
-      - img/spike-3.png
-      - img/spike-4.png
-      - img/spike-5.png
-      - img/spike-6.png
-      - img/spike-7.png
-      - img/spike-8.png
+      - /img/spike-1.png
+      - /img/spike-2.png
+      - /img/spike-3.png
+      - /img/spike-4.png
+      - /img/spike-5.png
+      - /img/spike-6.png
+      - /img/spike-7.png
+      - /img/spike-8.png
     description: |
       I built this project for Spike On Site Solutions, a construction company in
       Toronto, Canada. I worked with a product manager and a designer to create
@@ -33,12 +33,12 @@ projects:
       - name: Code
         href: https://github.com/joeytepp/task-tree
     slideshow:
-      - img/task-1.png
-      - img/task-2.png
-      - img/task-3.png
-      - img/task-4.png
-      - img/task-5.png
-      - img/task-6.png
+      - /img/task-1.png
+      - /img/task-2.png
+      - /img/task-3.png
+      - /img/task-4.png
+      - /img/task-5.png
+      - /img/task-6.png
     description: |
       I made this project to familiarize myself with Ruby on Rails, and to explore
       some cool Ruby gems. The application is a task manager that lets users
@@ -55,13 +55,13 @@ projects:
       - name: Website
         href: https://2019.qhacks.io
     slideshow:
-      - img/qhacks-1.png
-      - img/qhacks-2.png
-      - img/qhacks-3.png
-      - img/qhacks-4.png
-      - img/qhacks-5.png
-      - img/qhacks-6.png
-      - img/qhacks-7.png
+      - /img/qhacks-1.png
+      - /img/qhacks-2.png
+      - /img/qhacks-3.png
+      - /img/qhacks-4.png
+      - /img/qhacks-5.png
+      - /img/qhacks-6.png
+      - /img/qhacks-7.png
     description: |
       In my time at Queen’s University, I got involved with the school’s annual
       hackathon, QHacks. After attending in second year as a hacker, I decided to
@@ -79,11 +79,11 @@ projects:
       - name: Code
         href: https://github.com/joeytepp/SongVerdict
     slideshow:
-      - img/sv-1.png
-      - img/sv-2.png
-      - img/sv-3.png
-      - img/sv-4.png
-      - img/sv-5.png
+      - /img/sv-1.png
+      - /img/sv-2.png
+      - /img/sv-3.png
+      - /img/sv-4.png
+      - /img/sv-5.png
     description: |
       This project is very near and dear to my heart as it was the first web app I
       ever shipped. The app connects to Spotify’s API to play a random song every

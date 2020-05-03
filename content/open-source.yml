@@ -6,7 +6,7 @@ pulls:
     name: Customer Server Bug
     number: 11418
     date: April 2020
-    image: img/zeit.png
+    image: /img/zeit.png
     description: |
       While working on a project using NextJS, I came across a bug that took me a while to fix. The bug was causing my page to refresh periodically every 5 seconds. I decided to dig deeper into the NextJS source code to see what caused the bug in the first place. Once I found the what was causing it, I opened a pull request that added a warning to developers that encountered the same issue.
   - repo: graphql-ruby
@@ -14,7 +14,7 @@ pulls:
     name: Playground Generator
     number: 2839
     date: March 2020
-    image: img/graphql.svg
+    image: /img/graphql.svg
     description: |
       One of the nice features about the graphql-ruby gem is it comes with rails generators that can save you from writing a lot of code yourself. One of these generators is the `install` generator, which sets up an initial schema on your project. The schema adds the GraphiQL IDE which lets developers locally test their APIs, however, many prefer Apollo Playground as an IDE as it provides more useful features. I added an option where the `install` generator could be setup with this IDE instead.
   - repo: graphql-ruby
@@ -22,13 +22,13 @@ pulls:
     name: Subscriptions Classes
     number: 2297
     date: May 2019
-    image: img/graphql.svg
+    image: /img/graphql.svg
     description: While working on a personal project I experimented with GraphQL Subscriptions, which allow you to exchange data between clients and the server in real-time using websockets. At this time, the graphql-ruby gem had added a new class-based API for defining subscriptions, and I added an improvement to this to give the class-based API more of the features that were avalable with the legacy API.
   - repo: ant-motion
     org: ant-design
     name: Fix Typo
     number: 207
     date: March 2019
-    image: img/ant.svg
+    image: /img/ant.svg
     description: |
       While reading the online documentation for this library I noticed a small typo, so I fixed it :)

@@ -22,7 +22,7 @@ function SiteMetadata(props: Props) {
           content: "width=device-width, initial-scale=1.0",
         },
       ]}
-      link={[{ rel: "shortcut icon", href: "img/favicon.png" }]}
+      link={[{ rel: "shortcut icon", href: "/img/favicon.png" }]}
     ></Helmet>
   );
 }
