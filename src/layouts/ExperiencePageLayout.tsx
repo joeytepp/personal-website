@@ -15,7 +15,7 @@ function ExperiencePageLayout() {
       <Title href="/experience" color="#0ba340">
         Experience
       </Title>
-      <p>{description}</p>
+      <p className="ExperiencePage-description">{description}</p>
       <div>
         {jobs.map((job, i) => (
           <Job {...job} key={i}></Job>

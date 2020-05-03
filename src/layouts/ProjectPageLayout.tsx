@@ -15,7 +15,7 @@ function ProjectPageLayout() {
       <Title color="#a30B0b" href="/projects">
         Projects
       </Title>
-      <p>{description}</p>
+      <p className="ProjectPage-description">{description}</p>
       {projects.map((project, i) => (
         <Project {...project} key={i}></Project>
       ))}

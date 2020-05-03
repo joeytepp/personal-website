@@ -1,5 +1,6 @@
 .Job-root {
   padding: 5px;
+  margin: 5px 0px;
 }
 
 .Job-grid {
@@ -20,4 +21,27 @@
 
 .Job-description {
   padding-top: 10px;
+}
+
+.Job-date-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 540px) {
+  .Job-grid {
+    grid-template-columns: min-content 1fr;
+  }
+
+  .Job-date {
+    display: none;
+  }
+
+  .Job-date-mobile {
+    display: block;
+  }
+
+  .Job-img {
+    height: 60px;
+    width: 60px;
+  }
 }

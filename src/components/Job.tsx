@@ -12,8 +12,11 @@ function Job(props: Job) {
             <img src={props.image} className="Job-img"></img>
           </div>
           <div>
-            <div>{props.title}</div>
+            <div>
+              {props.title} — {props.company}
+            </div>
             <div className="Job-location">{props.location}</div>
+            <div className="Job-date-mobile">{props.date}</div>
           </div>
           <div className="Job-date">{props.date}</div>
         </div>
