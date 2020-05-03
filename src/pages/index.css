@@ -1,5 +1,11 @@
+@font-face {
+  font-family: "Arial-Black";
+  font-display: swap;
+  src: local("Arial-Black"), url("/fonts/arial=black.ttf");
+}
+
 * {
-  font-family: Arial-Black;
+  font-family: Arial-Black, sans-serif;
 }
 
 html {
@@ -16,7 +22,7 @@ body {
 }
 
 h1 {
-  font-family: Arial-Black;
+  font-family: "Arial-Black", sans-serif;
   font-size: 42px;
   padding: 0px;
   margin: 5px;
