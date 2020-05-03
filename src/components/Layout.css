@@ -8,7 +8,7 @@
   margin: 0px auto;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
   .Layout-root {
     padding-left: 20px;
     padding-right: 20px;
