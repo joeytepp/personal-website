@@ -3,7 +3,7 @@ description: |
 pulls:
   - repo: next.js
     org: zeit
-    name: Customer Server Bug
+    name: Custom Server Bug
     number: 11418
     date: April 2020
     image: /img/zeit.png
