@@ -1,0 +1,32 @@
+@tailwind base;
+
+h1 {
+  @apply text-2xl;
+}
+h2 {
+  @apply text-xl;
+}
+h3 {
+  @apply text-lg;
+}
+a {
+  @apply text-blue-600;
+}
+
+.fill-none {
+  fill: none;
+}
+.fill-current {
+  fill: currentColor;
+}
+.stroke-current {
+  stroke: currentColor;
+}
+
+.animate-spin-slow:hover {
+  animation-play-state: paused !important;
+  animation-fill-mode: forwards !important;
+}
+
+@tailwind components;
+@tailwind utilities;
