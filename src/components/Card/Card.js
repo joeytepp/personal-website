@@ -30,7 +30,7 @@ Card.Subtitle = function(props) {
 
 Card.Text = function(props) {
   return (
-    <div className="text-base mt-3">
+    <div className="text-base mt-3 last:mb-3">
       {props.children}
     </div>
   )
