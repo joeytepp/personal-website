@@ -18,6 +18,7 @@ const Layout = ({ children }) => {
   localStorage.setItem(DARK_MODE_LOCAL_STORAGE_KEY, isDarkMode)
 
   useEffect(() => {
+    document.body.classList.toggle("bg-black", isDarkMode)
     localStorage.setItem(DARK_MODE_LOCAL_STORAGE_KEY, isDarkMode)
   }, [isDarkMode])
 

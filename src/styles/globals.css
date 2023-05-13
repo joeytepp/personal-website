@@ -11,6 +11,11 @@ h3 {
 }
 a {
   @apply text-blue-600;
+
+  &.no-color {
+    @apply text-black;
+    @apply dark:text-white;
+  }
 }
 
 .fill-none {
