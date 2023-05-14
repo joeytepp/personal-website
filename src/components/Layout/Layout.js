@@ -11,7 +11,11 @@ const DARK_MODE_LOCAL_STORAGE_KEY = "joeytepp-darkmode"
 const getDarkModeFromBrowser = () => window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
 
 const Layout = ({ children }) => {
-  const savedDarkMode = typeof window === "undefined" ? "false" : localStorage.getItem(DARK_MODE_LOCAL_STORAGE_KEY)
+  if (typeof window === "undefined") {
+    return null
+  }
+
+  const savedDarkMode = localStorage.getItem(DARK_MODE_LOCAL_STORAGE_KEY)
   const darkModeDefault = savedDarkMode ? savedDarkMode === "true" : getDarkModeFromBrowser()
   const ref = useRef(null)
   const [isDarkMode, setIsDarkMode] = useState(darkModeDefault)
@@ -25,7 +29,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <DarkModeContext.Provider value={{isDarkMode, setIsDarkMode}}>
-        <div ref={ref} className={classNames("w-full h-full", { dark: isDarkMode })}>
+        <div ref={ref} className={classNames("w-full h-full", { dark: darkModeDefault })}>
           <div className="w-full h-full bg-white text-black dark:bg-black dark:text-white">
             <div className="container mx-auto">
               <main>{children}</main>
