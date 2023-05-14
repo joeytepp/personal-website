@@ -13,6 +13,9 @@ export default function AboutPage() {
         <h2 className="text-3xl font-bold my-10">Hey There 👋</h2>
         <p>Hi, I’m Joey!</p>
         <p>I’m a software engineer from Toronto, Canada.</p>
+        <p>My passions include music (playing and listening), basketball, travelling, books, and movies.</p>
+        <p>I have lived in 4 countries and 5 cities and travelled to over 30 countries.</p>
+        <p>I can play multiple instruments by ear including guitar, piano, and drums.</p>
         <p>I made this website to show some of my projects, experience, and open source contributions to friends, family, and potential employers.</p>
         <p>If you want to know more about me, feel free to get in contact with me through the following platforms:</p>
 
