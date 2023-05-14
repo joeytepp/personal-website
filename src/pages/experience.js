@@ -21,7 +21,7 @@ export default function ExperiencePage() {
           <li className="mb-5">
             <Card title="Shopify" img={shopify} action="May 2020 - May 2023">
               <Card.Subtitle>
-                <a href="https://www.shopify.com/" target="_blank" rel="noopener" className="no-color">
+                <a href="https://www.shopify.com/" target="_blank" rel="noopener" className="text-black dark:text-white">
                   <span className="inline-flex my-1 items-center justify-center mr-2 rounded-full border border-green-600 px-4 py-1 hover:bg-green-600 hover:text-white">
                     <span>View Website</span>
                     <ExternalIcon className="inline-block w-2 h-2 ml-1 fill-current" />
@@ -32,14 +32,14 @@ export default function ExperiencePage() {
                 </span>
               </Card.Subtitle>
               <Card.Text>
-                Shopify is a commerce platform that allows millions of merchants across the world to sell across multiple surfaces. I joined Shopify in May 2020 as a member of the <a href="https://shopify.engineering/performance-testing-shopify" rel="noopener" target="_blank" className="no-color underline">Platform Conditioning Team</a>. This team focused on building tooling and infrastructure to support load testing Shopify's platform in order to prepare for large sales events such as Black Friday and Cyber Monday. As a member of this team I made high quality contributions across many internal and external codebases, ran load tests (that exceeded 50 million requests per minute), mentored and onboarded interns and new hires, and contributed to Shopify's hiring efforts by running technical interviews. Later on in my time at Shopify I joined the Resilliency Acceleration team which worked in tandem with Shopify's incident response and site reliability teams to ensure that incidents could be handled quickly and effectively. Part of this included some key contributions to Shopify's custom <a href="https://www.shopifystatus.com" rel="noopener" target="_blank" class="no-color underline">status page</a>. Overall my experience at Shopify is something I'm truly grateful for, as I got to meet and work with some incredible people, and help contribute to Shopify's mission of making commerce better for everyone.
+                Shopify is a commerce platform that allows millions of merchants across the world to sell across multiple surfaces. I joined Shopify in May 2020 as a member of the <a href="https://shopify.engineering/performance-testing-shopify" rel="noopener" target="_blank" className="text-black dark:text-white underline">Platform Conditioning Team</a>. This team focused on building tooling and infrastructure to support load testing Shopify's platform in order to prepare for large sales events such as Black Friday and Cyber Monday. As a member of this team I made high quality contributions across many internal and external codebases, ran load tests (that exceeded 50 million requests per minute), mentored and onboarded interns and new hires, and contributed to Shopify's hiring efforts by running technical interviews. Later on in my time at Shopify I joined the Resilliency Acceleration team which worked in tandem with Shopify's incident response and site reliability teams to ensure that incidents could be handled quickly and effectively. Part of this included some key contributions to Shopify's custom <a href="https://www.shopifystatus.com" rel="noopener" target="_blank" class="text-black dark:text-white underline">status page</a>. Overall my experience at Shopify is something I'm truly grateful for, as I got to meet and work with some incredible people, and help contribute to Shopify's mission of making commerce better for everyone.
               </Card.Text>
             </Card>
           </li>
           <li className="mb-5">
             <Card title="FCB/SIX Consulting" action="Summer 2019" img={fcb} >
               <Card.Subtitle>
-                <a href="https://www.fcbsix.com/" target="_blank" rel="noopener" className="no-color">
+                <a href="https://www.fcbsix.com/" target="_blank" rel="noopener" className="text-black dark:text-white">
                   <span className="inline-flex my-1 items-center justify-center mr-2 rounded-full border border-green-600 px-4 py-1 hover:bg-green-600 hover:text-white">
                     <span>View Website</span>
                     <ExternalIcon className="inline-block w-2 h-2 ml-1 fill-current" />
@@ -57,7 +57,7 @@ export default function ExperiencePage() {
           <li className="mb-5">
             <Card title="Sprout At Work" action="Summer 2018" img={sprout}>
               <Card.Subtitle>
-                <a href="https://www.sproutatwork.com/" target="_blank" rel="noopener" className="no-color">
+                <a href="https://www.sproutatwork.com/" target="_blank" rel="noopener" className="text-black dark:text-white">
                   <span className="inline-flex my-1 items-center justify-center mr-2 rounded-full border border-green-600 px-4 py-1 hover:bg-green-600 hover:text-white">
                     <span>View Website</span>
                     <ExternalIcon className="inline-block w-2 h-2 ml-1 fill-current" />
@@ -75,7 +75,7 @@ export default function ExperiencePage() {
           <li class="mb-5">
             <Card title="Accurate Rolal" action="Summer 2017" img={accurate}>
               <Card.Subtitle>
-                <a href="https://bafoldingcartons.com/" target="_blank" rel="noopener" className="no-color">
+                <a href="https://bafoldingcartons.com/" target="_blank" rel="noopener" className="text-black dark:text-white">
                   <span className="inline-flex my-1 items-center justify-center mr-2 rounded-full border border-green-600 px-4 py-1 hover:bg-green-600 hover:text-white">
                     <span>View Website</span>
                     <ExternalIcon className="inline-block w-2 h-2 ml-1 fill-current" />
@@ -91,7 +91,7 @@ export default function ExperiencePage() {
             </Card>
           </li>
         </ul>
-        <Link to="/" class="no-color">{'< Back'}</Link>
+        <Link to="/" class="text-black dark:text-white">{'< Back'}</Link>
       </div>
     </Layout>
   )

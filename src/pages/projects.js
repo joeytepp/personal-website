@@ -43,7 +43,7 @@ export default function ProjectsPage() {
           <li className="mb-10">
             <Card img={singsongLogo} title="Sing Song" action="May 2023">
               <Card.Subtitle>
-                <a href="https://singsong.live" target="_blank" rel="noopener" className="no-color">
+                <a href="https://singsong.live" target="_blank" rel="noopener" className="text-black dark:text-white">
                   <span className="inline-flex my-1 items-center justify-center mr-2 rounded-full border border-green-600 px-4 py-1 hover:bg-green-600 hover:text-white">
                     <span>View Website</span>
                     <ExternalIcon className="inline-block w-2 h-2 ml-1 fill-current" />
@@ -58,7 +58,7 @@ export default function ProjectsPage() {
                 Ever since I was 9 years old, one of my favourite hobbies has been playing guitar. I've always enjoyed playing songs for people and having everyone sing along. However when doing this I've run into a couple issues: Firstly, not everyone knows the lyrics to every song. This leads to people not singing along, or worse making everyone wait while they look up the lyrics to the song. Additionally, in large groups so many people request different songs and it's hard to remember all these requests. Sing Song solves all these issues and from using it so far it's been amazing for getting more people involved in sing-alongs and jam sessions.
               </Card.Text>
               <Card.Text>
-                Try it for yourself by visiting <a href="https://singsong.live" target="_blank" rel="noopener" className="no-color underline">https://singsong.live</a>!
+                Try it for yourself by visiting <a href="https://singsong.live" target="_blank" rel="noopener" className="text-black dark:text-white underline">https://singsong.live</a>!
               </Card.Text>
             </Card>
           </li>
@@ -79,7 +79,7 @@ export default function ProjectsPage() {
                   </span>
               </Card.Subtitle>
               <Card.Text>
-                In January 2020 I was approached by a friend about working on a consulting project for a local business. The project was to create a platform where they could manage their storage bins that were being sent out across the city. Working as a solo developer with my friend as a PM, we built a system that did just that and released the final product to the client in April 2020. While the platform is hosted privately by the client, you can see screenshots of the project below and learn more about Spike On Site solutions by visiting <a href="https://spikesos.com" rel="noopener" target="_blank" class="no-color underline">their website</a>.
+                In January 2020 I was approached by a friend about working on a consulting project for a local business. The project was to create a platform where they could manage their storage bins that were being sent out across the city. Working as a solo developer with my friend as a PM, we built a system that did just that and released the final product to the client in April 2020. While the platform is hosted privately by the client, you can see screenshots of the project below and learn more about Spike On Site solutions by visiting <a href="https://spikesos.com" rel="noopener" target="_blank" class="text-black dark:text-white underline">their website</a>.
               </Card.Text>
               <Card.Carousel>
                 <img src={spike1} className="w-full rounded-lg" />
@@ -96,7 +96,7 @@ export default function ProjectsPage() {
           <li>
             <Card img={tasktreeLogo} title="Task Tree" action="August 2019">
               <Card.Subtitle>
-                <a href="https://github.com/joeytepp/task-tree" target="_blank" rel="noopener" className="no-color">
+                <a href="https://github.com/joeytepp/task-tree" target="_blank" rel="noopener" className="text-black dark:text-white">
                   <span className="inline-flex my-1 items-center justify-center mr-2 rounded-full border border-green-600 px-4 py-1 hover:bg-green-600 hover:text-white">
                     <span>View Code</span>
                     <ExternalIcon className="inline-block w-2 h-2 ml-1 fill-current" />

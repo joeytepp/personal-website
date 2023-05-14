@@ -24,7 +24,7 @@ export default function OpenSourcePage() {
           <li className="mb-5">
             <Card title="DarthSim/overmind" img={overmind} action="February 2023">
               <Card.Subtitle>
-                <a href="https://github.com/DarthSim/overmind/pull/150" target="_blank" rel="noopener" className="no-color">
+                <a href="https://github.com/DarthSim/overmind/pull/150" target="_blank" rel="noopener" className="text-black dark:text-white">
                   <span className="inline-flex my-1 items-center justify-center mr-2 rounded-full border border-green-600 px-4 py-1 hover:bg-green-600 hover:text-white">
                     <span>View on GitHub</span>
                     <ExternalIcon className="inline-block w-2 h-2 ml-1 fill-current" />
@@ -43,7 +43,7 @@ export default function OpenSourcePage() {
           <li className="mb-5">
             <Card title="paper-trail-gem/paper_trail" img={papertrail} action="March 2022">
               <Card.Subtitle>
-                <a href="https://github.com/paper-trail-gem/paper_trail/pull/1366" target="_blank" rel="noopener" className="no-color">
+                <a href="https://github.com/paper-trail-gem/paper_trail/pull/1366" target="_blank" rel="noopener" className="text-black dark:text-white">
                   <span className="inline-flex my-1 items-center justify-center mr-2 rounded-full border border-green-600 px-4 py-1 hover:bg-green-600 hover:text-white">
                     <span>View on GitHub</span>
                     <ExternalIcon className="inline-block w-2 h-2 ml-1 fill-current" />
@@ -62,7 +62,7 @@ export default function OpenSourcePage() {
           <li className="mb-5">
             <Card title="vercel/next.js" img={vercel} action="April 2020">
               <Card.Subtitle>
-                <a href="https://github.com/vercel/next.js/pull/11418" target="_blank" rel="noopener" className="no-color">
+                <a href="https://github.com/vercel/next.js/pull/11418" target="_blank" rel="noopener" className="text-black dark:text-white">
                   <span className="inline-flex my-1 items-center justify-center mr-2 rounded-full border border-green-600 px-4 py-1 hover:bg-green-600 hover:text-white">
                     <span>View on GitHub</span>
                     <ExternalIcon className="inline-block w-2 h-2 ml-1 fill-current" />
@@ -81,7 +81,7 @@ export default function OpenSourcePage() {
           <li>
             <Card title="rmosolgo/graphql-ruby" action="June 2019" img={graphqlRuby}>
               <Card.Subtitle>
-                <a href="https://github.com/rmosolgo/graphql-ruby/pull/2297" target="_blank" rel="noopener" className="no-color">
+                <a href="https://github.com/rmosolgo/graphql-ruby/pull/2297" target="_blank" rel="noopener" className="text-black dark:text-white">
                   <span className="inline-flex my-1 items-center justify-center mr-2 rounded-full border border-green-600 px-4 py-1 hover:bg-green-600 hover:text-white">
                     <span>View on GitHub</span>
                     <ExternalIcon className="inline-block w-2 h-2 ml-1 fill-current" />
