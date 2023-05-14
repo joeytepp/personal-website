@@ -43,7 +43,7 @@ export default function ProjectsPage() {
           <li className="mb-10">
             <Card img={singsongLogo} title="Sing Song" action="May 2023">
               <Card.Subtitle>
-                <a href="https://singsong.live" target="_blank" rel="noopener" className="text-black dark:text-white">
+                <a href="https://www.singsong.live" target="_blank" rel="noopener" className="text-black dark:text-white">
                   <span className="inline-flex my-1 items-center justify-center mr-2 rounded-full border border-green-600 px-4 py-1 hover:bg-green-600 hover:text-white">
                     <span>View Website</span>
                     <ExternalIcon className="inline-block w-2 h-2 ml-1 fill-current" />
@@ -58,7 +58,7 @@ export default function ProjectsPage() {
                 Ever since I was 9 years old, one of my favourite hobbies has been playing guitar. I've always enjoyed playing songs for people and having everyone sing along. However when doing this I've run into a couple issues: Firstly, not everyone knows the lyrics to every song. This leads to people not singing along, or worse making everyone wait while they look up the lyrics to the song. Additionally, in large groups so many people request different songs and it's hard to remember all these requests. Sing Song solves all these issues and from using it so far it's been amazing for getting more people involved in sing-alongs and jam sessions.
               </Card.Text>
               <Card.Text>
-                Try it for yourself by visiting <a href="https://singsong.live" target="_blank" rel="noopener" className="text-black dark:text-white underline">https://singsong.live</a>!
+                Try it for yourself by visiting <a href="https://www.singsong.live" target="_blank" rel="noopener" className="text-black dark:text-white underline">singsong.live</a>!
               </Card.Text>
             </Card>
           </li>
