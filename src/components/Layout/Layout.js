@@ -11,11 +11,10 @@ const DARK_MODE_LOCAL_STORAGE_KEY = "joeytepp-darkmode"
 const getDarkModeFromBrowser = () => window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
 
 const Layout = ({ children }) => {
-  const savedDarkMode = localStorage.getItem(DARK_MODE_LOCAL_STORAGE_KEY)
+  const savedDarkMode = typeof window === "undefined" ? "false" : localStorage.getItem(DARK_MODE_LOCAL_STORAGE_KEY)
   const darkModeDefault = savedDarkMode ? savedDarkMode === "true" : getDarkModeFromBrowser()
 
   const [isDarkMode, setIsDarkMode] = useState(darkModeDefault)
-  localStorage.setItem(DARK_MODE_LOCAL_STORAGE_KEY, isDarkMode)
 
   useEffect(() => {
     document.body.classList.toggle("bg-black", isDarkMode)

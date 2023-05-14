@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 
 import GithubIcon from "../GithubIcon"
 import LinkedinIcon from "../LinkedinIcon"
@@ -9,9 +9,11 @@ export default function Centerpiece() {
   const [rotation, setRotation] = React.useState(0.0)
   const [speed, setSpeed] = React.useState(0.2)
 
-  requestAnimationFrame(() => {
-    setRotation(rotation + speed)
-  })
+  useEffect(() => {
+    requestAnimationFrame(() => {
+      setRotation(rotation + speed)
+    })
+  }, [rotation, speed])
 
   return (
     <div className="flex items-center justify-center h-screen">
