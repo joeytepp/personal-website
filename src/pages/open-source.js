@@ -25,12 +25,12 @@ export default function OpenSourcePage() {
             <Card title="DarthSim/overmind" img={overmind} action="February 2023">
               <Card.Subtitle>
                 <a href="https://github.com/DarthSim/overmind/pull/150" target="_blank" rel="noopener" className="no-color">
-                  <span className="inline-flex items-center justify-center mr-2 rounded-full border border-green-600 px-4 py-1 hover:bg-green-600 hover:text-white">
+                  <span className="inline-flex my-1 items-center justify-center mr-2 rounded-full border border-green-600 px-4 py-1 hover:bg-green-600 hover:text-white">
                     <span>View on GitHub</span>
                     <ExternalIcon className="inline-block w-2 h-2 ml-1 fill-current" />
                   </span>
                 </a>
-                <span className="inline-flex items-center justify-center rounded-full border border-cyan-400 px-4 py-1">
+                <span className="inline-flex my-1 items-center justify-center rounded-full border border-cyan-400 px-4 py-1">
                   <GoLangIcon className="inline-block w-3 h-3 mr-1 fill-current" />
                   <span>Golang</span>
                 </span>
@@ -44,12 +44,12 @@ export default function OpenSourcePage() {
             <Card title="paper-trail-gem/paper_trail" img={papertrail} action="March 2022">
               <Card.Subtitle>
                 <a href="https://github.com/paper-trail-gem/paper_trail/pull/1366" target="_blank" rel="noopener" className="no-color">
-                  <span className="inline-flex items-center justify-center mr-2 rounded-full border border-green-600 px-4 py-1 hover:bg-green-600 hover:text-white">
+                  <span className="inline-flex my-1 items-center justify-center mr-2 rounded-full border border-green-600 px-4 py-1 hover:bg-green-600 hover:text-white">
                     <span>View on GitHub</span>
                     <ExternalIcon className="inline-block w-2 h-2 ml-1 fill-current" />
                   </span>
                 </a>
-                <span className="inline-flex items-center justify-center rounded-full border border-red-400 px-4 py-1">
+                <span className="inline-flex my-1 items-center justify-center rounded-full border border-red-400 px-4 py-1">
                   <RubyIcon className="inline-block w-3 h-3 mr-1 fill-current" />
                   <span>Ruby</span>
                 </span>
@@ -63,12 +63,12 @@ export default function OpenSourcePage() {
             <Card title="vercel/next.js" img={vercel} action="April 2020">
               <Card.Subtitle>
                 <a href="https://github.com/vercel/next.js/pull/11418" target="_blank" rel="noopener" className="no-color">
-                  <span className="inline-flex items-center justify-center mr-2 rounded-full border border-green-600 px-4 py-1 hover:bg-green-600 hover:text-white">
+                  <span className="inline-flex my-1 items-center justify-center mr-2 rounded-full border border-green-600 px-4 py-1 hover:bg-green-600 hover:text-white">
                     <span>View on GitHub</span>
                     <ExternalIcon className="inline-block w-2 h-2 ml-1 fill-current" />
                   </span>
                 </a>
-                <span className="inline-flex items-center justify-center rounded-full border border-yellow-200 px-4 py-1">
+                <span className="inline-flex my-1 items-center justify-center rounded-full border border-yellow-200 px-4 py-1">
                   <JavaScriptIcon className="inline-block w-3 h-3 mr-1 fill-current" />
                   <span>JavaScript</span>
                 </span>
@@ -82,12 +82,12 @@ export default function OpenSourcePage() {
             <Card title="rmosolgo/graphql-ruby" action="June 2019" img={graphqlRuby}>
               <Card.Subtitle>
                 <a href="https://github.com/rmosolgo/graphql-ruby/pull/2297" target="_blank" rel="noopener" className="no-color">
-                  <span className="inline-flex items-center justify-center mr-2 rounded-full border border-green-600 px-4 py-1 hover:bg-green-600 hover:text-white">
+                  <span className="inline-flex my-1 items-center justify-center mr-2 rounded-full border border-green-600 px-4 py-1 hover:bg-green-600 hover:text-white">
                     <span>View on GitHub</span>
                     <ExternalIcon className="inline-block w-2 h-2 ml-1 fill-current" />
                   </span>
                 </a>
-                <span className="inline-flex items-center justify-center rounded-full border border-red-400 px-4 py-1">
+                <span className="inline-flex my-1 items-center justify-center rounded-full border border-red-400 px-4 py-1">
                   <RubyIcon className="inline-block w-3 h-3 mr-1 fill-current" />
                   <span>Ruby</span>
                 </span>

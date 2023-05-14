@@ -22,7 +22,7 @@ export default function Card(props) {
 
 Card.Subtitle = function(props) {
   return (
-    <div className="text-xs my-2">
+    <div className="text-xs my-1">
       {props.children}
     </div>
   )

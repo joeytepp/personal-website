@@ -22,12 +22,12 @@ export default function ExperiencePage() {
             <Card title="Shopify" img={shopify} action="May 2020 - May 2023">
               <Card.Subtitle>
                 <a href="https://www.shopify.com/" target="_blank" rel="noopener" className="no-color">
-                  <span className="inline-flex items-center justify-center mr-2 rounded-full border border-green-600 px-4 py-1 hover:bg-green-600 hover:text-white">
+                  <span className="inline-flex my-1 items-center justify-center mr-2 rounded-full border border-green-600 px-4 py-1 hover:bg-green-600 hover:text-white">
                     <span>View Website</span>
                     <ExternalIcon className="inline-block w-2 h-2 ml-1 fill-current" />
                   </span>
                 </a>
-                <span className="inline-flex items-center justify-center mr-2 rounded-full border border-black dark:border-white px-4 py-1">
+                <span className="inline-flex my-1 items-center justify-center mr-2 rounded-full border border-black dark:border-white px-4 py-1">
                   <span>Senior Software Engineer</span>
                 </span>
               </Card.Subtitle>
@@ -40,12 +40,12 @@ export default function ExperiencePage() {
             <Card title="FCB/SIX Consulting" action="Summer 2019" img={fcb} >
               <Card.Subtitle>
                 <a href="https://www.fcbsix.com/" target="_blank" rel="noopener" className="no-color">
-                  <span className="inline-flex items-center justify-center mr-2 rounded-full border border-green-600 px-4 py-1 hover:bg-green-600 hover:text-white">
+                  <span className="inline-flex my-1 items-center justify-center mr-2 rounded-full border border-green-600 px-4 py-1 hover:bg-green-600 hover:text-white">
                     <span>View Website</span>
                     <ExternalIcon className="inline-block w-2 h-2 ml-1 fill-current" />
                   </span>
                 </a>
-                <span className="inline-flex items-center justify-center mr-2 rounded-full border border-black dark:border-white px-4 py-1">
+                <span className="inline-flex my-1 items-center justify-center mr-2 rounded-full border border-black dark:border-white px-4 py-1">
                   <span>Summer Intern</span>
                 </span>
               </Card.Subtitle>
@@ -58,12 +58,12 @@ export default function ExperiencePage() {
             <Card title="Sprout At Work" action="Summer 2018" img={sprout}>
               <Card.Subtitle>
                 <a href="https://www.sproutatwork.com/" target="_blank" rel="noopener" className="no-color">
-                  <span className="inline-flex items-center justify-center mr-2 rounded-full border border-green-600 px-4 py-1 hover:bg-green-600 hover:text-white">
+                  <span className="inline-flex my-1 items-center justify-center mr-2 rounded-full border border-green-600 px-4 py-1 hover:bg-green-600 hover:text-white">
                     <span>View Website</span>
                     <ExternalIcon className="inline-block w-2 h-2 ml-1 fill-current" />
                   </span>
                 </a>
-                <span className="inline-flex items-center justify-center mr-2 rounded-full border border-black dark:border-white px-4 py-1">
+                <span className="inline-flex my-1 items-center justify-center mr-2 rounded-full border border-black dark:border-white px-4 py-1">
                   <span>Backend Developer Intern</span>
                 </span>
               </Card.Subtitle>
@@ -76,12 +76,12 @@ export default function ExperiencePage() {
             <Card title="Accurate Rolal" action="Summer 2017" img={accurate}>
               <Card.Subtitle>
                 <a href="https://bafoldingcartons.com/" target="_blank" rel="noopener" className="no-color">
-                  <span className="inline-flex items-center justify-center mr-2 rounded-full border border-green-600 px-4 py-1 hover:bg-green-600 hover:text-white">
+                  <span className="inline-flex my-1 items-center justify-center mr-2 rounded-full border border-green-600 px-4 py-1 hover:bg-green-600 hover:text-white">
                     <span>View Website</span>
                     <ExternalIcon className="inline-block w-2 h-2 ml-1 fill-current" />
                   </span>
                 </a>
-                <span className="inline-flex items-center justify-center mr-2 rounded-full border border-black dark:border-white px-4 py-1">
+                <span className="inline-flex my-1 items-center justify-center mr-2 rounded-full border border-black dark:border-white px-4 py-1">
                   <span>Engineering Intern</span>
                 </span>
               </Card.Subtitle>

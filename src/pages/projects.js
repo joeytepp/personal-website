@@ -44,12 +44,12 @@ export default function ProjectsPage() {
             <Card img={singsongLogo} title="Sing Song" action="May 2023">
               <Card.Subtitle>
                 <a href="https://singsong.live" target="_blank" rel="noopener" className="no-color">
-                  <span className="inline-flex items-center justify-center mr-2 rounded-full border border-green-600 px-4 py-1 hover:bg-green-600 hover:text-white">
+                  <span className="inline-flex my-1 items-center justify-center mr-2 rounded-full border border-green-600 px-4 py-1 hover:bg-green-600 hover:text-white">
                     <span>View Website</span>
                     <ExternalIcon className="inline-block w-2 h-2 ml-1 fill-current" />
                   </span>
                 </a>
-                <span className="inline-flex items-center justify-center rounded-full border border-red-600 px-4 py-1">
+                <span className="inline-flex my-1 items-center justify-center rounded-full border border-red-600 px-4 py-1">
                   <RubyIcon className="inline-block w-3 h-3 mr-1 fill-current" />
                   <span>Ruby on Rails</span>
                 </span>
@@ -65,15 +65,15 @@ export default function ProjectsPage() {
           <li className="mb-10">
             <Card img={spikesosLogo} title="Spike SOS Platform" action="April 2020">
               <Card.Subtitle>
-                <span className="inline-flex items-center justify-center mr-2 rounded-full border border-yellow-400 px-4 py-1">
+                <span className="inline-flex my-1 items-center justify-center mr-2 rounded-full border border-yellow-400 px-4 py-1">
                     <DollarIcon className="inline-block w-3 h-3 fill-current" />
                     <span>Paid</span>
                   </span>
-                  <span className="inline-flex items-center justify-center mr-2 rounded-full border border-green-500 px-4 py-1">
+                  <span className="inline-flex my-1 items-center justify-center mr-2 rounded-full border border-green-500 px-4 py-1">
                     <NodeIcon className="inline-block w-3 h-3 mr-1 fill-current" />
                     <span>NodeJS</span>
                   </span>
-                  <span className="inline-flex items-center justify-center rounded-full border border-blue-700 px-4 py-1">
+                  <span className="inline-flex my-1 items-center justify-center rounded-full border border-blue-700 px-4 py-1">
                     <ReactIcon className="inline-block w-3 h-3 mr-1 fill-current" />
                     <span>React</span>
                   </span>
@@ -97,16 +97,16 @@ export default function ProjectsPage() {
             <Card img={tasktreeLogo} title="Task Tree" action="August 2019">
               <Card.Subtitle>
                 <a href="https://github.com/joeytepp/task-tree" target="_blank" rel="noopener" className="no-color">
-                  <span className="inline-flex items-center justify-center mr-2 rounded-full border border-green-600 px-4 py-1 hover:bg-green-600 hover:text-white">
+                  <span className="inline-flex my-1 items-center justify-center mr-2 rounded-full border border-green-600 px-4 py-1 hover:bg-green-600 hover:text-white">
                     <span>View Code</span>
                     <ExternalIcon className="inline-block w-2 h-2 ml-1 fill-current" />
                   </span>
                 </a>
-                <span className="inline-flex items-center justify-center mr-2 rounded-full border border-red-600 px-4 py-1">
+                <span className="inline-flex my-1 items-center justify-center mr-2 rounded-full border border-red-600 px-4 py-1">
                   <RubyIcon className="inline-block w-3 h-3 mr-1 fill-current" />
                   <span>Ruby on Rails</span>
                 </span>
-                <span className="inline-flex items-center justify-center rounded-full border border-blue-700 px-4 py-1">
+                <span className="inline-flex my-1 items-center justify-center rounded-full border border-blue-700 px-4 py-1">
                   <ReactIcon className="inline-block w-3 h-3 mr-1 fill-current" />
                   <span>React</span>
                 </span>
