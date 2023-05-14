@@ -6,6 +6,11 @@ module.exports = {
     "./node_modules/flowbite/**/*.js",
     'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'
   ],
+  purge: {
+    options: {
+      safelist: ['dark'],
+    },
+  },
   theme: {
     extend: {
       animation: {
