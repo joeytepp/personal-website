@@ -27,9 +27,9 @@ const Layout = ({ children }) => {
         <div className={classNames("w-full h-full", { dark: isDarkMode })}>
           <div className="w-full h-full bg-white text-black dark:bg-black dark:text-white">
             <div className="container mx-auto">
-              <DarkModeToggle />
               <main>{children}</main>
               <Footer />
+              <DarkModeToggle />
             </div>
           </div>
         </div>
