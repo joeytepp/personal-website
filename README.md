@@ -11,11 +11,11 @@ If for whatever reason you want to run this wesbite locally, open terminal and e
 git clone https://github.com/joeytepp/personal-webiste.git
 cd personal-website
 
-# Install NPN dependencies
-npm i
+# Install NPM dependencies
+yarn
 
 # Run the development server
-npm run develop
+yarn run develop
 ```
 
 ## Contributing
