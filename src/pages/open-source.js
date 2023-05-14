@@ -36,7 +36,7 @@ export default function OpenSourcePage() {
                 </span>
               </Card.Subtitle>
               <Card.Text>
-                Overmind is a process manager for Procfile-based applications and tmux. It is a more robust alternative to <code>Foreman</code>. When running multiple processes are running, it is important that nals are propagated to all processes. This was already supported for <code>SIGTERM</code>, but not for <code>SIGINFO</code>. Since the processes I was using overmind for at the time relied on the INFO nal for some of their fucntionality, I made the effort to add support for this into the tool. In making this contribution I was able to make use of my knowledge of concurrency and nal processing in Golang, and also supporting multiple operating systems in low-level programming.
+                Overmind is a process manager for Procfile-based applications and tmux. It is a more robust alternative to <code>Foreman</code>. When running multiple processes are running, it is important that nals are propagated to all processes. This was already supported for <code>SIGTERM</code>, but not for <code>SIGINFO</code>. Since the processes I was using overmind for at the time relied on the <code>SIGINFO</code> signal for some of their fucntionality, I made the effort to add support for this into the tool. In making this contribution I was able to make use of my knowledge of concurrency and nal processing in Golang, and also supporting multiple operating systems in low-level programming.
               </Card.Text>
             </Card>
           </li>
