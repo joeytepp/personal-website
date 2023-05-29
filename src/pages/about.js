@@ -22,7 +22,7 @@ export default function AboutPage() {
         </p>
         <ul className="list-disc list-inside my-5">
           <li><a target="_blank" rel="noopener" href="https://github.com/joeytepp">GitHub</a></li>
-          <li><a target="_blank" rel="noopener" href="https://www.linkedin.com/in/joeytepperman/">LinkedIn</a></li>
+          <li><a target="_blank" rel="noopener" href="https://www.linkedin.com/in/joeytepp/">LinkedIn</a></li>
           <li><a target="_blank" rel="noopener" href="mailto:joeytepperman@gmail.com">Email</a></li>
         </ul>
 
