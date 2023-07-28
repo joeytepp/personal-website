@@ -20,25 +20,25 @@ export default function Centerpiece() {
       <div className="relative w-full max-w-2xl flex justify-center items-center h-screen">
         <svg className="w-full h-full" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
           <g className="hover:bg-black" style={{transformOrigin: "50% 50%", transform: `rotate(${rotation}deg)`}} onMouseOver={() => setSpeed(0.0)} onMouseLeave={() => setSpeed(0.2)} >
-            <Link to="/about" className="hover:brightness-90">
+            <Link to="/about" className="dark:hover:brightness-90 hover:brightness-110">
               <path id="about" d="M 100,20 A 80,80 0 0 1 180,100" className="stroke-rose-700" strokeWidth="25" fill="none" />
               <text className="text-white font-bold text-lg text-center" dy="5" dx="2">
                 <textPath href="#about" className="fill-current" startOffset="50%" textAnchor="middle">About</textPath>
               </text>
             </Link>
-            <Link to="/projects" className="hover:brightness-90">
+            <Link to="/projects" className="dark:hover:brightness-90 hover:brightness-110">
               <path id="projects" d="M 180,100 A 80,80 0 0 1 100,180" className="stroke-yellow-700" strokeWidth="25" fill="none" />
               <text className="text-white font-bold text-lg text-center" dy="5" dx="2">
                 <textPath href="#projects" className="fill-current"startOffset="50%" textAnchor="middle">Projects</textPath>
               </text>
             </Link>
-            <Link to="/experience" className="hover:brightness-90">
+            <Link to="/experience" className="dark:hover:brightness-90 hover:brightness-110">
               <path id="experience" d="M 100,180 A 80,80 0 0 1 20,100" className="stroke-cyan-700" strokeWidth="25" fill="none" />
               <text className="text-white font-bold text-lg text-center" dy="5" dx="2">
                 <textPath href="#experience" className="fill-current"startOffset="50%" textAnchor="middle">Experience</textPath>
               </text>
             </Link>
-            <Link to="/open-source" className="hover:brightness-90">
+            <Link to="/open-source" className="dark:hover:brightness-90 hover:brightness-110">
               <path id="open-source" d="M 20,100 A 80,80 0 0 1 100,20" className="stroke-violet-700" strokeWidth="25" fill="none" />
               <text className="text-white font-bold text-lg text-center" dy="5" dx="2">
                 <textPath href="#open-source" className="fill-current" startOffset="50%" textAnchor="middle">Open Source</textPath>
