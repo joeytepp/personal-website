@@ -3,7 +3,7 @@ import Layout from "../components/Layout"
 import SEO from "../components/SEO"
 import Card from "../components/Card/Card"
 
-import doormat from "../images/doormat.webp"
+import ownright from "../images/ownright.png"
 import shopify from "../images/shopify.png"
 import fcb from "../images/fcb.png"
 import ExternalIcon from "../components/Externalcon"
@@ -25,10 +25,14 @@ export default function ExperiencePage() {
         </p>
         <ul className="my-10">
           <li className="mb-5">
-            <Card title="Doormat" img={doormat} action="August 2023 - Present">
+            <Card
+              title="Ownright"
+              img={ownright}
+              action="August 2023 - Present"
+            >
               <Card.Subtitle>
                 <a
-                  href="https://doormat.ca/"
+                  href="https://ownright.com/"
                   target="_blank"
                   rel="noopener"
                   className="text-black dark:text-white"
@@ -39,19 +43,19 @@ export default function ExperiencePage() {
                   </span>
                 </a>
                 <span className="inline-flex my-1 items-center justify-center mr-2 rounded-full border border-black dark:border-white px-4 py-1">
-                  <span>Software Engineer</span>
+                  <span>Engineering Lead</span>
                 </span>
               </Card.Subtitle>
               <Card.Text>
-                Doormat is a legal services solution that simplifies the real
+                Ownright is a legal services solution that simplifies the real
                 estate transaction process for Canadian homebuyers. As one of
-                Doormat's first engineers I have helped build out the
+                Ownright's first engineers I have helped build out the
                 foundations of the product while focusing on ensuring
                 scalability and reliability for our users. This has been an
                 incredibly exciting and rewarding experience, and it has been
                 awesome to see the{" "}
                 <a
-                  href="https://www.google.com/maps/place/Doormat/@43.6442208,-79.4012609,17z/data=!3m1!4b1!4m6!3m5!1s0xaebdc460fca7c43f:0x5f36e353261c1eab!8m2!3d43.6442169!4d-79.398686!16s%2Fg%2F11s4jpnn57?coh=164777&entry=tt&shorturl=1"
+                  href="https://www.google.com/maps/place/Ownright/@43.6433008,-79.3983319,17z/data=!3m1!5s0x882b34dee9d47b2b:0x2b6524213512cdf2!4m8!3m7!1s0xaebdc460fca7c43f:0x5f36e353261c1eab!8m2!3d43.6442169!4d-79.398686!9m1!1b1!16s%2Fg%2F11s4jpnn57?entry=ttu&g_ep=EgoyMDI2MDIxOC4wIKXMDSoASAFQAw%3D%3D"
                   rel="noopener noreferrer"
                   target="_blank"
                   className="text-black dark:text-white underline"
